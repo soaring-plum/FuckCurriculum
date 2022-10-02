@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入教学楼 例：教1"
+            android:id="@+id/et1"
+            android:textColor="#FF0000"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入教室 例：404"
+            android:id="@+id/et2"
+            android:textColor="#FFA500"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入日期 例：2022-09-21"
+            android:id="@+id/et3"
+            android:textColor="#EEEE00"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入当天的第几节课 例：1"
+            android:id="@+id/et4"
+            android:textColor="#00FF00"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入课程代码 例：C0302030"
+            android:id="@+id/et5"
+            android:textColor="#00EEEE"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入学号 例：202001070200"
+            android:id="@+id/et6"
+            android:textColor="#0000FF"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt1"
+            android:layout_margin="10dp"
+            android:text="生成视频网址"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="按下按钮就复制到剪切板"
+            android:id="@+id/et7"
+            android:textColor="#7B1FA2"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt2"
+            android:layout_margin="10dp"
+            android:text="生成m3u8链接"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="按下按钮就复制到剪切板"
+            android:id="@+id/et8"
+            android:textColor="#C2185B"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
